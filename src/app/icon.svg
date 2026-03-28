@@ -1,0 +1,6 @@
+<svg width="500" height="500" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(70, 50)">
+    <rect x="0" y="25" width="40" height="55" rx="12" fill="#1A3B66"/>
+    <rect x="25" y="0" width="55" height="40" rx="12" fill="#1A3B66"/>
+  </g>
+</svg>
