@@ -51,6 +51,7 @@ export function GenerateForm({ loading, onGenerate }: GenerateFormProps) {
         cta: "",
       },
       additionalInfo: "",
+      useTrending: true,
     },
   });
 
@@ -197,6 +198,23 @@ export function GenerateForm({ loading, onGenerate }: GenerateFormProps) {
             />
           )}
         />
+        <div className="flex items-center gap-3">
+          <input
+            type="checkbox"
+            id="useTrending"
+            {...register("useTrending")}
+            className="w-4 h-4 rounded border-slate-300 text-cyan-500 focus:ring-cyan-500 cursor-pointer"
+          />
+          <label
+            htmlFor="useTrending"
+            className="text-sm font-semibold text-slate-700 cursor-pointer select-none"
+          >
+            실시간 트렌드/밈 적용
+            <span className="ml-1.5 text-xs font-normal text-slate-400">
+              Google Trends 기반 최신 키워드 반영
+            </span>
+          </label>
+        </div>
         <div>
           <label className="block text-sm font-semibold text-slate-700 mb-1.5">
             추가 요청사항

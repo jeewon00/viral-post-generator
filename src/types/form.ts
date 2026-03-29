@@ -19,4 +19,5 @@ export interface FormData {
     cta: string;
   };
   additionalInfo: string;
+  useTrending: boolean;
 }

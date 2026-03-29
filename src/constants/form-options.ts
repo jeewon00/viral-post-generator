@@ -20,7 +20,7 @@ export const JOBS = [
   "기타",
 ];
 
-export const INTERESTS = ["연애", "건강"];
+export const INTERESTS = ["연애", "건강", "정치", "남녀갈등", "여사친/남사친"];
 
 export const SPENDING_TYPES = [
   "가성비 중시",
